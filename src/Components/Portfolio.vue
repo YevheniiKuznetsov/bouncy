@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="contact-us-block">
-            <div class="text">Already Loved Us? Let's Talk! {{popo}}</div>
+            <div class="text">Already Loved Us? Let's Talk!</div>
             <div class="contact-us-button">Contact Us</div>
         </div>
     </div>

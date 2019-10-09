@@ -13,7 +13,7 @@
                 <div class="content-button"><img src="../assets/images/connect.png" alt=""></div>
             </div>
             <div class="text">
-                <h4 v-bind:title="mes">Graphic Design</h4>
+                <h4>Graphic Design</h4>
                 <div>At vero eos et accusamus et <span>iusto</span> odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti</div>
                 <div>quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, <span>similique sunt</span> in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</div>
             </div>

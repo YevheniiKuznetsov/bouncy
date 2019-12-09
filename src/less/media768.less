@@ -1,0 +1,94 @@
+@media only screen and (max-width: 768px){
+    .head-wrapper {
+        .mobile-menu {
+            display: block;
+        }
+    }
+    .home-page-menu-item {
+        display: block;
+    }
+    .head-wrapper {
+        .home-page-menu-item {
+            display: none;
+        }
+    }
+    .read-more {
+        .content-wrapper {
+            padding: 0 15px;
+        }
+    }
+    .services-container {
+        .design {
+            padding: 0 15px;
+        }
+    }
+    .services-container {
+        .team-quotes {
+            padding: 0 15px 100px;
+        }
+    }
+    .portfolio-wrapper {
+        .portfolio-navigation {
+            display: none;
+        }
+        .portfolio-mobile-navigation {
+            display: block;
+        }
+        .content {
+            .portfolio {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            
+                .portfolio-element {
+                    position: relative;
+                    width: 30%;
+                    min-width: 150px;
+                    margin-top: 5px;
+                
+                    .element {
+                        padding-bottom: 100%;
+                    
+                        img {
+                            position: absolute;
+                        }
+                    }
+                }
+            }
+        } 
+    }   
+    .contacts {
+        .contact-details-wrapper {
+            flex-direction: column;
+        
+            .contact-details-item {
+                .icon {
+                    width: 100vw !important;
+                }
+                &:not(:first-child){
+                    margin-top: 20px;
+                    margin-left: 0;
+                }  
+            }
+        }
+        .form {
+            margin-top: 100px;
+            background: #ffffff;
+        
+            .contact-form-wrapper {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-auto-rows: 40px 40px 40px 188px 53px;
+                grid-column-gap: 40px;
+                grid-row-gap: 30px;
+                grid-template-areas: 
+                    "name"
+                    "email"
+                    "subject"
+                    "thistext"
+                    "thisbutton";  
+                margin: 0;
+            }
+        }
+    }
+}

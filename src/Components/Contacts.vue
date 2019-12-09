@@ -4,7 +4,7 @@
             <menu-container></menu-container>
         </div>
         <h3>CONTACT US</h3>
-        <div class="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+        <div class="description-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
         <div class="contact-details-wrapper">
             <div class="contact-details-item">
                 <div class="icon e-mail-icon">
